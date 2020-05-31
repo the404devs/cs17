@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F975174B-8E09-4ACA-8F44-7C6A5CE736B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>prjICS</RootNamespace>
+    <AssemblyName>prjICS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Battle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Battle.designer.cs">
+      <DependentUpon>Battle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classroom.designer.cs">
+      <DependentUpon>Classroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EndScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndScreen.Designer.cs">
+      <DependentUpon>EndScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpMenu.Designer.cs">
+      <DependentUpon>HelpMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson.designer.cs">
+      <DependentUpon>Lesson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskEnd.designer.cs">
+      <DependentUpon>TaskEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SebnicMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SebnicMenu.designer.cs">
+      <DependentUpon>SebnicMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TitleScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TitleScreen.designer.cs">
+      <DependentUpon>TitleScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Battle.resx">
+      <DependentUpon>Battle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classroom.resx">
+      <DependentUpon>Classroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndScreen.resx">
+      <DependentUpon>EndScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpMenu.resx">
+      <DependentUpon>HelpMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson.resx">
+      <DependentUpon>Lesson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskEnd.resx">
+      <DependentUpon>TaskEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SebnicMenu.resx">
+      <DependentUpon>SebnicMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TitleScreen.resx">
+      <DependentUpon>TitleScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\Classroom.psd" />
+    <None Include="Resources\Characters\NPCs.psd" />
+    <None Include="Resources\stickman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msg_error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computertop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computerleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computerright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computerbottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stickman0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stickman90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stickman180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stickman270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solutionsExplorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VisualStudioDisplay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClappingPenguin.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\KRNIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\KRNICBACK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\KRNICSIDE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC1Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC1Side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC2Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC5Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC6Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC6Side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC8Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC9side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC10back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC14back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC20back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPCs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filepaths.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\AvatarBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\AvatarFront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\AvatarSideL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\AvatarSideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\KRNICSIDER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC1SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC2Side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC2SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC3SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC6SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC7SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC8Side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC10SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC11SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC12SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC13SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC15SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC16SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC17SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC18SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC19SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC20SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC21SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC22SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textboxName.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oval.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jackblack2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jackblack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hungman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scope2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scope.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowchartoval.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ie.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC24SideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC24SideL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC18Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC19Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC20Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC21Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC22Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC24Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC7Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC10Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC11Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC12Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC13Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC13Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC15Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC16Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC17Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC9sideR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Characters\NPC7Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clap.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clap2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dance.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\The End - MLBIS.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\Grand Finale - MLBIS.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\Tough Guy Alert - MLBIS.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\Fawful - MLBIS.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\Oki Doki - MLBIS.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio\Coffee Shop - CP.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lesson5q4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lesson4q3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lesson4q5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

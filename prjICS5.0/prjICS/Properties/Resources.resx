@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NPC20SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC20SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC8Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC8Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC9side" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC9side.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC6Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC6Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VisualStudioDisplay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VisualStudioDisplay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC19SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC19SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC10SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC10SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC11SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC11SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC18SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC18SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KRNICSIDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\KRNICSIDE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC20back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC20back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC2Side" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC2Side.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC16SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC16SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jackblack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jackblack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computerbottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computerbottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC13SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC13SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC6Side" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC6Side.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC12SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC12SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computerright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computerright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvatarFront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\AvatarFront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvatarBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\AvatarBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC3SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC3SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msg_error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msg_error.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC17SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC17SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KRNICBACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\KRNICBACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC1SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC1SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="solutionsExplorer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\solutionsExplorer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC1Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC1Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC5Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC5Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvatarSideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\AvatarSideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filepaths" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filepaths.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textboxName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textboxName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC2SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC2SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvatarSideL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\AvatarSideL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC14back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC14back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KRNICSIDER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\KRNICSIDER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC2Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC2Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC15SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC15SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC21SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC21SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\css.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC8Side" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC8Side.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC7SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC7SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC22SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC22SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oval" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oval.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC10back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC10back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computertop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computertop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computerleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computerleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC6SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC6SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC1Side" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC1Side.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KRNIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\KRNIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hungman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hungman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flowchartoval" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flowchartoval.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ie.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC24SideL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC24SideL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC24SideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC24SideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scope.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scope2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scope2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvatarBack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\AvatarBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvatarFront1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\AvatarFront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvatarSideL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\AvatarSideL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvatarSideR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\AvatarSideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC10Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC10Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC11Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC11Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC12Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC12Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC13Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC13Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC13Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC13Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC15Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC15Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC16Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC16Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC17Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC17Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC18Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC18Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC19Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC19Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC20Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC20Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC21Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC21Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC22Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC22Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC24Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC24Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC7Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC7Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC9sideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC9sideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPCs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPCs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPC7Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Characters\NPC7Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clap.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clap2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clap2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dance.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musicoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musicoff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coffee_Shop___CP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Coffee Shop - CP.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Fawful___MLBIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Fawful - MLBIS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Grand_Finale___MLBIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Grand Finale - MLBIS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lesson4q3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lesson4q3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lesson4q5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lesson4q5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lesson5q4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lesson5q4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oki_Doki___MLBIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Oki Doki - MLBIS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="The_End___MLBIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\The End - MLBIS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tough_Guy_Alert___MLBIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Tough Guy Alert - MLBIS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
