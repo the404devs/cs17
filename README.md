@@ -8,3 +8,4 @@ Made in colaboration with Kevin and Jatin (thanks guys!)
 The website I have here is a super early version, and it looks like the finished product is lost forever. Jatin is the one who worked on it, and his old flash drive seems to be borked. Neither Kevin or myself had a backup copy.
 
 Update (05/31/20): I've found the majority of the old site on the Wayback Machine!
+https://the404devs.github.io/cs17
