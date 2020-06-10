@@ -75,7 +75,7 @@
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(531, 90);
             this.lblTitle.TabIndex = 2;
-            this.lblTitle.Text = "Interactive Course Simulator: Computer Science 2018";
+            this.lblTitle.Text = "Interactive Course Simulator: Computer Science 2017";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNamePrompt
